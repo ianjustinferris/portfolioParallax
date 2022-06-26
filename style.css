@@ -1,0 +1,110 @@
+body{
+    font-family: 'Galatea', sans-serif;
+    background-color: rgb(249, 248, 243);
+    display:block
+}
+
+/* .fp-tableCell {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+} */
+
+#s1{
+    border: 1px solid red;
+    height: 100vh;
+     display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+
+#s2{
+    background-color: white;
+     border: 1px solid red;
+     height:100vh;
+      display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#s3{
+    background-color: white;
+     border: 1px solid red;
+     height:100vh;
+      display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#s4{
+    background-color: white;
+     border: 1px solid red;
+     height:100vh;
+      display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#s5{
+    background-color: white;
+     border: 1px solid red;
+     height:100vh;
+      display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#responsive-canvas {
+  width: 100%;
+}
+
+
+
+#sectionHeader1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+}
+    
+
+#sectionHeader3
+#sectionHeader4
+#sectionHeader5 {
+    text-align:center
+}
+
+.nav-link{
+    color:black
+}
+
+
+.navbar-toggler{
+    display: flex;
+    
+}
+
+#name{
+    /* font-weight: normal; */
+    margin-left: 27px;
+    letter-spacing: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#textContainer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+#initials{
+
+    height: 10vw;
+    width: 10vw;
+}
+
