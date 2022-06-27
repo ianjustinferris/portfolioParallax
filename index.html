@@ -13,7 +13,8 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     </head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
@@ -25,19 +26,19 @@
         <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarTogglerDemo01">
           <ul class="nav align-items-center" id="myMenu">
             <li class="nav-item active">
-              <a class="nav-link" id="Home" href ="#s1" >HOME</a>
+              <a class="nav-link" id="Home" href ="#s1">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" id="Projects" href ="#s2">PROJECTS</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" id="Resume" href ="#s3" >RESUME</a>
+              <a class="nav-link" id="Resume" href ="#s3">RESUME</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" id="About" href ="#s4" >ABOUT</a>
+              <a class="nav-link" id="About" href ="#s4">ABOUT</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" id="Contact" href ="#s5" >CONTACT</a>
+              <a class="nav-link" id="Contact" href ="#s5">CONTACT</a>
             </li>
           </ul>
           </ul>
@@ -53,14 +54,32 @@
             <!-- <img src="pixil-frame-0.png"></img> -->
             </div>  
         </div>
-
+ 
          <div class="section" id="s2">
-           <div id="project1Text">
-             <h1 id= "project1Title">NINJA-GO</h1>
-             <p id="project1Details">Using Express, SQL, and Phaser.js, this side-scrolling action game allows users to login to their user profile with a unique ID and Avatar. Game data for each user is stored in a SQL database for competitive scoreboards. </p>
-             </div>
+           <div id="box1">
              <img id="gameSS" src='game.png'>
-           
+              <div id="project1Text">
+             <h1 id= "project1Title">NINJA-GO</h1>
+             <p id="project1Details">PHASER.JS / EXPRESS / SQL</p>
+            </div>
+           </div>
+
+            <div id="box2">
+             <img id="wildLifeSS" src='wildlifeCensus.png'>
+              <div id="project2Text">
+             <h1 id= "project2Title">WILD_LIFE CENSUS</h1>
+             <p id="project2Details">WIKIPEDIA API / MAPBOX / GBIF</p>
+            </div>
+           </div>
+
+            <div id="box3">
+             <img id="gameSS" src='weather.png'>
+              <div id="project3Text">
+             <h1 id= "project3Title">WEATHER DASHBOARD</h1>
+             <p id="project3Details">WEATHER API / MOMENT.JS</p>
+            </div>
+           </div>
+
            </div>
     
 
@@ -77,11 +96,13 @@
             <h1 id="sectionHeader5">CONTACT</h1>
         </div>
 
-  <script src="https://unpkg.com/embla-carousel"></script>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.2/svg.min.js" integrity="sha512-I+rKw3hArzZIHzrkdELbKqrXfkSvw/h0lW/GgB8FThaBVz2e5ZUlSW8kY8v3q6wq37eybIwyufkEZxe4qSlGcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src='script.js'></script>
+</body>
+</html>
+
   <script src='script.js'></script>
 </body>
 </html>

@@ -1,1 +1,0 @@
-const embla = EmblaCarousel(document.getElementById('embla'))
