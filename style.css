@@ -1,58 +1,57 @@
 body{
     font-family: 'Galatea', sans-serif;
-    background-color: rgb(249, 248, 243);
+    /* background-color: rgb(249, 248, 243); */
+    background-color: rgb(207, 253, 0);
     display:block
 }
 
+a, button{
+    all: unset;
+    cursor: pointer;
+}
+
 #s1{
-    /* border: 1px solid red; */
-    height: 100vh;
-     display: flex;
+   height: 100vh;
+   display: flex;
    justify-content: center;
    align-items: center;
     
 }
 
 #s2{
-    
-    background-color: rgb(249, 248, 243);
-     
-     /* height:100vh; */
-    
-      display: flex;
-      flex-direction: column;
+   background-color: rgb(207, 253, 0);;
+   display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
    margin-right: 10vw;
    margin-left: 10vw
 }
 
-#s3{
-    
-    background-color: rgb(249, 248, 243);;
-     /* border: 1px solid red; */
-     height:100vh;
-      display: flex;
+#s3{ 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* align-items: center; */
+   background-color: rgb(207, 253, 0);
+   height:100vh;
+   
+}
+
+#s4{ 
+   background-color:  rgb(207, 253, 0);
+   border: 1px solid red;
+   height:100vh;
+   display: flex;
    justify-content: center;
    align-items: center;
 }
 
-#s4{
-    
-    background-color: rgb(249, 248, 243);;
-     border: 1px solid red;
-     height:100vh;
-      display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-#s5{
-    
-    background-color: rgb(249, 248, 243);;
-     border: 1px solid red;
-     height:100vh;
-      display: flex;
+#s5{ 
+   background-color: rgb(207, 253, 0);
+   border: 1px solid red;
+   height:100vh;
+   display: flex;
    justify-content: center;
    align-items: center;
 }
@@ -92,13 +91,11 @@ body{
 
 
 .navbar-toggler{
-    display: flex;
-    
+    display: flex;   
 }
 
 #name{
     font-size: 7vw ;
-    /* font-weight: normal; */
     margin-left: 5vw;
     letter-spacing: 4.4vw;
     display: flex;
@@ -107,12 +104,12 @@ body{
 }
 
 #textContainer1{
+    color: rgb(54, 109, 199);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 22vw
-   
+    margin-bottom: 22vw   
 }
 
 .animate__animated.animate__fadeInDown{
@@ -126,7 +123,7 @@ body{
 #gameSS{
    height:100;
     width: 80vw;
-    border-top: 2vw solid black;
+   
    
 }
 
@@ -138,40 +135,34 @@ body{
 }
 
 #project1Title{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    letter-spacing: 4.6vw;
+     color: rgb(54, 109, 199);
+    letter-spacing: 7.3vw;
     padding-left: 5vw;
     padding-top: 3vw;
     padding-bottom: 3vw;
-     margin-bottom: 0;
+    margin-bottom: 0;
     font-size: calc(12px + 3vw);
-     border-top: 2vw solid black;
-    border-bottom: 1px solid black
+    border-top: 2vw solid rgb(207, 253, 0);
+    border-bottom: 1px solid  rgb(207, 253, 0);
 
 }
 
 #project1Details{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* font-weight: bold; */
+     color: rgb(54, 109, 199);
     font-size: calc(12px + 2.6vw);
     font-weight: 200;
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 3vw;
     margin-bottom: 3vw;
-    letter-spacing: .54vw;
+    letter-spacing: 1.3vw;
 }
 #box1{
-    background-color: white;
+    background-color:  rgb(83, 245, 24);;
 }
 
 #box2{
-    background-color: white;
-    /* border: 1px solid black; */
+    background-color:  rgb(83, 245, 24);;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -182,7 +173,7 @@ body{
 #wildLifeSS{
     height:100;
     width: 80vw;
-    border-top: 2vw solid black;
+   
 }
 
 #project2Text{
@@ -193,37 +184,31 @@ body{
 }
 
 #project2Title{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    letter-spacing: 1.2vw;
+     color: rgb(54, 109, 199);
+    letter-spacing: 2.5vw;
     padding-left: 5vw;
     padding-top: 3vw;
     padding-bottom: 3vw;
     margin-bottom: 0;
     font-size: calc(12px + 3vw);
-    border-top: 2vw solid black;
-    border-bottom: 1px solid black
+    border-top: 2vw solid rgb(207, 253, 0);
+    border-bottom: 1px solid rgb(207, 253, 0);
 
 }
 
 #project2Details{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* font-weight: bold; */
+     color: rgb(54, 109, 199);
     font-size: calc(12px + 2.6vw);
     font-weight: 200;
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 3vw;
     margin-bottom: 3vw;
-    letter-spacing: .2vw;
+    letter-spacing: .9vw;
 }
 
 #box3{
-     background-color: white;
-    /* border: 1px solid black; */
+    background-color:  rgb(83, 245, 24);;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -232,6 +217,7 @@ body{
 }
 
 #project3Text{
+     color: #FFFF;
     width: 100%;
     display: flex;
     flex-direction: column ;
@@ -239,30 +225,30 @@ body{
 }
 
 #project3Title{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    letter-spacing: 1.3vw;
+    color: rgb(54, 109, 199);
+    letter-spacing: 2vw;
     padding-left: 5vw;
     padding-top: 3vw;
     padding-bottom: 3vw;
-     margin-bottom: 0;
+    margin-bottom: 0;
     font-size: calc(12px + 3vw);
-     border-top: 2vw solid black;
-    border-bottom: 1px solid black
+    border-top: 2vw solid rgb(207, 253, 0);
+    border-bottom: 1px solid rgb(207, 253, 0);
 
 }
 
 #project3Details{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* font-weight: bold; */
+    color:rgb(54, 109, 199);
     font-size: calc(12px + 2.6vw);
     font-weight: 200;
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 3vw;
     margin-bottom: 3vw;
-    letter-spacing: .9vw;
+    letter-spacing: 1.41vw;
+}
+
+#pdf{
+    width: 80vw;
+    height: 100vw
 }
