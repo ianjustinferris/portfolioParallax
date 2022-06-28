@@ -40,7 +40,7 @@ a, button{
 
 #s4{ 
    background-color:  rgb(207, 253, 0);
-   border: 1px solid red;
+  
    height:100vh;
    display: flex;
    justify-content: center;
@@ -48,12 +48,16 @@ a, button{
 }
 
 #s5{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
    background-color: rgb(207, 253, 0);
-   border: 1px solid red;
+  
    height:100vh;
    display: flex;
-   justify-content: center;
-   align-items: center;
+   margin-left: 10vw;
+   margin-right: 10vw
+
 }
 
 #responsive-canvas {
@@ -248,7 +252,23 @@ a, button{
     letter-spacing: 1.41vw;
 }
 
-#pdf{
-    width: 80vw;
-    height: 100vw
+
+.fa-github{
+    color: rgb(54, 109, 199);
+    font-size: 5vw
+}
+
+.fa-codepen{
+    color: rgb(54, 109, 199);
+  font-size: 5vw
+}
+
+.fa-linkedin{
+    color: rgb(54, 109, 199);
+  font-size: 5vw
+}
+
+.fa-file-user{
+    color: rgb(54, 109, 199);
+    font-size: 5vw
 }

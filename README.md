@@ -2,7 +2,7 @@
 
 ## Description
 
-A portfolio page to demonstrate selected projects and build proficiency in CSS.
+A portfolio page to demonstrate selected projects and build proficiency in CSS. Links to the deployed projects are embedded in the project images. Links to respective Github repositories are the project titles themselves. A downloadable pdf version of my resume is included in this site. 
 
 ## Table of Contents 
 
